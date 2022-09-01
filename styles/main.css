@@ -1,8 +1,31 @@
- body {
-  background:#999;
-  font-family:Arial;
+body {
+  background: rgb(59, 59, 59);
+  font-family: Helvetica, 'Times New Roman', Times, serif, Arial, sans-serif;
+  color:rgb(65, 147, 255)
+  margin: 0;
+  padding: 100;
 }
-
-li {
-  padding:5px;
+h1{
+  color:rgb(255, 212, 95)
+}
+h3 {
+  color: rgb(139, 139, 139);
+}
+li{
+  color: rgb(172, 163, 163);
+  opacity: 1;
+}
+button {
+  background: rgb(207, 197, 197)
+  border: red;
+  color: brown;
+  border-radius: 5px;
+}
+header {
+  background: black;
+  margin: 20px;
+}
+section {
+  background: white;
+  color:yellow;
 }
