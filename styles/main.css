@@ -1,31 +1,38 @@
 body {
   background: rgb(59, 59, 59);
   font-family: Helvetica, 'Times New Roman', Times, serif, Arial, sans-serif;
-  color:rgb(65, 147, 255)
-  margin: 0;
-  padding: 100;
-}
-h1{
   color:rgb(255, 212, 95)
+  padding: 0;
 }
-h3 {
-  color: rgb(139, 139, 139);
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 li{
+  display: inline-block;
+  list-style-type: none;
   color: rgb(172, 163, 163);
-  opacity: 1;
-}
-button {
-  background: rgb(207, 197, 197)
-  border: red;
-  color: brown;
-  border-radius: 5px;
+  margin-right: 20px;
 }
 header {
-  background: black;
+  color: blanchedalmond;
   margin: 20px;
 }
 section {
-  background: white;
-  color:yellow;
+  display: flex;
+  flex-direction: row;
+  color:rgb(255, 212, 95);
+  padding: 20px;
+}
+div {
+  background: grey;
+  margin: auto;
+  display: inline-block;
+  width: 100px;
+}
+footer {
+  background: black;
+  color:rgb(196, 196, 106)
+  padding: 10px;
 }
